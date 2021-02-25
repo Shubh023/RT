@@ -1,0 +1,107 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "RayTracing/src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "RayTracing/src",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "RayTracing/tests",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "RayTracing/tests",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "RayTracing",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "RayTracing_lib::@14b540af8f3e6109b072",
+					"jsonFile" : "target-RayTracing_lib-Debug-a944a7a3804dfd3f9382.json",
+					"name" : "RayTracing_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "RayTracing_run::@14b540af8f3e6109b072",
+					"jsonFile" : "target-RayTracing_run-Debug-900334bca70064375fc1.json",
+					"name" : "RayTracing_run",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "RayTracing_test::@a9d43dcc50cfe9f7c79a",
+					"jsonFile" : "target-RayTracing_test-Debug-7de55919ebe933750038.json",
+					"name" : "RayTracing_test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/shubh/source/repos/RayTracing/out/build/x64-Debug (default)",
+		"source" : "C:/Users/shubh/source/repos/RayTracing"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}
